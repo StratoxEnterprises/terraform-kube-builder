@@ -1,3 +1,3 @@
-# Builder for Terraform Kube
+# Terraform Kube Builder
 
-Build image for [Terraform Kube](https://github.com/totr/terraform-kube) project.
+Terraform build image for [Terraform Kube](https://github.com/totr/terraform-kube) project.
