@@ -1,4 +1,4 @@
-FROM ljfranklin/terraform-resource:0.12.5 as base
+FROM ljfranklin/terraform-resource:0.12.18 as base
 LABEL maintainer="Tomas Trnka <tt@tomastrnka.net>"
 RUN apk update && \
     apk upgrade
