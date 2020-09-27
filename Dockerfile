@@ -17,8 +17,8 @@ RUN git checkout v0.6.2 && env GO111MODULE=on go mod download \
     && make build && mv terraform-provider-libvirt /dist/terraform-provider-libvirt_v0.6.2
 
 FROM base AS tools
-RUN apk add wireguard-tools=1.0.20200102-r0 \
-    && apk add jq=1.6-r0 \
+RUN apk add wireguard-tools=1.0.20200510-r0 \
+    && apk add jq=1.6-r1 \
     && mkdir -p /root/.terraform.d/plugins/linux_amd64/ \
     && apk add libvirt gcc libxslt cdrkit openssh-client \
     && rm -rf /tmp/* \
